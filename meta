@@ -1,1 +1,11 @@
 #This is a script to run against meta
+
+#!/bin/bash
+
+echo "Please enter the IP address that you would like to exploit: "
+
+read VarName
+
+sudo nmap -sV -O "VarName"
+
+
