@@ -8,4 +8,4 @@ read VarName
 
 sudo nmap -sV -O "VarName"
 
-
+exit 0
